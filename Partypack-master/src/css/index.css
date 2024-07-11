@@ -1,0 +1,22 @@
+.content {
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+}
+
+.songCategory {
+    display: inline-flex;
+    gap: 10px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.songCategory > * {
+    flex-shrink: 0;
+}
+
+#__primerPortalRoot__ > div {
+    z-index: 1000 !important;
+}
